@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "node app.js",
+    "lint": "eslint .",
     "test": "mocha test/api.test.js"
   },
   "author": "",
@@ -15,6 +16,7 @@
     "express": "^4.18.2"
   },
   "devDependencies": {
+    "eslint": "^8.31.0",
     "mocha": "^10.2.0",
     "supertest": "^6.3.3"
   }
